@@ -3,12 +3,21 @@
 html {
     font-family: sans-serif;
 }
+:root {
+    --accent-color: #FF0000;
+    --light-gray: rgba(0, 0, 0, 0.1);
+}
+
+body{
+    background-color: var(--light-gray);
+}
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 
 li, a, button{
     font-family: "montserrat"; 
@@ -28,7 +37,8 @@ header{
 .logo{
     cursor: pointer;
     font-size: small;
-    width: 300px;
+    width: 3%;
+    border-radius: 30%;
 }
 
 .navbar{
